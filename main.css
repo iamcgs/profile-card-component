@@ -21,7 +21,7 @@ body {
   background-color: var(--dark-cyan);
   background-image: url(images/bg-pattern-top.svg),
     url(images/bg-pattern-bottom.svg);
-  background-position: -50% 500%, 150% -550%;
+  background-position: -300px -400px, 600px 450px;
   background-repeat: no-repeat, no-repeat;
   background-attachment: fixed;
 }
@@ -132,12 +132,12 @@ footer {
 /* Media queries */
 @media (max-width: 768px) {
   body {
-    background-position: 275% 500%, -130% -550%;
+    background-position: -600px -400px, 270px 440px;
   }
 }
 
 @media (max-width: 375px) {
   body {
-    background-position: 130% 550%, -14% -530%;
+    background-position: -800px -300px, 120px 400px;
   }
 }

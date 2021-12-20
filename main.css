@@ -130,7 +130,7 @@ footer {
 }
 
 /* Media queries */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   body {
     background-position: 275% 500%, -130% -550%;
   }
@@ -140,4 +140,4 @@ footer {
   body {
     background-position: 130% 550%, -14% -530%;
   }
-}
+} */
